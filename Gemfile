@@ -15,7 +15,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 # learn-rails
-# gem 'activerecord-tableless'
+gem 'activerecord-tableless'
 gem 'figaro'
 gem 'gibbon'
 gem 'google_drive'
