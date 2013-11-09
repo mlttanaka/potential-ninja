@@ -27,7 +27,6 @@ GEM
       multi_json (~> 1.3)
       thread_safe (~> 0.1)
       tzinfo (~> 0.3.37)
-    ansi (1.4.3)
     arel (4.0.1)
     atomic (1.1.14)
     better_errors (1.0.1)
@@ -101,9 +100,8 @@ GEM
       multi_json (~> 1.0)
       multi_xml (~> 0.5)
       rack (~> 1.2)
+    pg (0.17.0)
     polyglot (0.3.3)
-    ps (0.0.8)
-      ansi
     quiet_assets (1.0.2)
       railties (>= 3.1, < 5.0)
     rack (1.5.2)
@@ -181,7 +179,7 @@ DEPENDENCIES
   high_voltage
   jbuilder (~> 1.2)
   jquery-rails
-  ps
+  pg
   quiet_assets
   rails (= 4.0.0)
   rails_12factor
