@@ -10,8 +10,8 @@
        <div class="large-6">
 					<%= simple_form_for @visitor do |f| %>
 						<%= f.error_notification %>
-						<%= f.input :email, label: false, :placeholder => 'Your email address...' %> <br/>
-						<%= f.submit "Sign up for the newsletter", :class => "button radius" %>
+						<%= f.input :email, label: false, placeholder: 'Your email address...' %> <br/>
+						<%= f.submit "Sign up for the newsletter", class: "button radius" %>
 					<% end %>
 				</div>
      </div>
