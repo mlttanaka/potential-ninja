@@ -4,6 +4,11 @@ class VisitorsController < ApplicationController
     @visitor = Visitor.new
   end
   
+  def new_a
+    @visitor = Visitor.new
+    render 'visitors/new_a'
+  end
+  
   def create
     @visitor = Visitor.new(secure_params)
     if @visitor.valid?

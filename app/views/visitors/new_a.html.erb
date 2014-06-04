@@ -1,0 +1,19 @@
+<% content_for :title do %>Musa Ni<% end %>
+<% content_for :description do %>Website of Musa Ni<% end %>
+<img src="http://lorempixel.com/1170/600/abstract/1">
+<div class="container">
+   <div class="row">
+     <div class="large-6 columns">
+       <h2>Go away.</h2>
+     </div>
+     <div class="large-6 columns">
+       <div class="large-6">
+					<%= simple_form_for @visitor do |f| %>
+						<%= f.error_notification %>
+						<%= f.input :email, label: false, placeholder: 'Not your email address...' %> <br/>
+						<%= f.submit "Do NOT click this!!!", class: "button radius alert" %>
+					<% end %>
+				</div>
+     </div>
+   </div>
+</div>

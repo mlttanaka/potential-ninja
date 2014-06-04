@@ -19,7 +19,7 @@ gem 'high_voltage'
 gem 'simple_form'
 
 # front-end framework
-gem 'compass-rails', '~> 2.0.alpha.0'
+gem 'compass-rails'
 gem 'zurb-foundation'
 
 # Other utilities
