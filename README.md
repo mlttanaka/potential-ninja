@@ -8,6 +8,8 @@ Learning Rails
   My live version of this app lives on [heroku] (http://mlttanaka-learn-rails.herokuapp.com/). Take a peek at it.
   
   [ ![Codeship Status for mlttanaka/sample_app](https://www.codeship.io/projects/71f8e750-4063-0131-7cf0-5a6dd1cd27cc/status)](https://www.codeship.io/projects/10536)
+  
+  Let's make a change!
 	
   
 
